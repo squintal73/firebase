@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
-const serviceAccount = require('./chave.json');
+const serviceAccount = require('./chaves.json');
 
 // Inicialize o Firebase Admin SDK
 admin.initializeApp({
