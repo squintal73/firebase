@@ -1,0 +1,22 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "decription": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sidnei Quintal - sidneirq73@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squintal73"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0"
+  }
+}
