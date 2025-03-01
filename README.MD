@@ -1,4 +1,4 @@
-# Nodejs  e Firebase - Cadastro de usuarios [![Custom Badge](https://img.shields.io/badge/FireBase-Node-ff69b)](https://github.com/squintal73/firebase)
+# Nodejs  e Firebase - Cadastro de usuários [![Custom Badge](https://img.shields.io/badge/FireBase-Node-ff69b)](https://github.com/squintal73/firebase)
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/squintal73/firebase?style=for-the-badge)
@@ -15,9 +15,7 @@ Este projeto demonstra como configurar e implementar um sistema de cadastro de u
 - [Conta no Firebase]() e um projeto criado
 - Editor de código (recomendado: [Visual Studio Code]())
 
-## 🚀 Instalando 
-
-https://img.shields.io/badge/dynamic/json
+## 🚀 Instalação
 
 
 ```
@@ -45,6 +43,29 @@ curl -X POST http://localhost:3000/signup -H "Content-Type: application/json" -d
 ```
 curl -X GET http://localhost:3000/users
 ```
+
+* [Mostrar um unico usuário]()
+
+```
+curl -X GET http://localhost:3000/users/<chave ID>
+```
+
+* [Atualizar um usuário]()
+
+```
+curl -X PUT http://localhost:3000/users/<chave ID> -H "Content-Type: application/json" -d '{
+  "name": "Usuario Atualizado",
+  "email": "usuario.atualizado@exemplo.com"
+}'
+```
+
+* [Excluir um usuário]()
+
+```
+curl -X DELETE http://localhost:3000/users/<chave ID>
+```
+
+
 
 ## License
 ![GitHub](https://img.shields.io/github/license/squintal73/firebase)
